@@ -77,19 +77,19 @@ nav a{
 
 /* Main Content Styles */
 
-.aboutme.mainContentBox{
+section.aboutme.mainContentBox{
     display:flex;
     flex-wrap:wrap;
     flex-direction:column;
 }
 
-.mainContentBox{
+div.mainContentBox{
     width:100%;
     display:flex;
     justify-content:space-around;
 }
 
-.photo{
+div.photo{
     width:40%;
     padding-top:2%;
     padding-bottom:2%;
@@ -154,15 +154,22 @@ div.orangeBox p{
 /* Gallery Styles */
 
 .gallery{
-    height:40vh;
+    height:100%;
     display:flex;
     flex-flow:row wrap;
+    justify-content:space-evenly;
 }
 
-.gallery .img-title2{
-    width:20%;
-    height:20%;
-    margin:auto;
+div.img-title{
+    height:18%;
+    width:18%;
+    padding:1%;
+}
+
+div.img-title img{
+    height:30vh;
+    width:30vw;
+    object-fit:cover;
 }
 
 h5{
@@ -172,10 +179,11 @@ h5{
     text-align:center;
 }
 
-div.gallery{
+section.gallery{
     display:flex;
     flex-flow:row, wrap;
     justify-content:space-evenly;
+    align-items:center;
 }
 
 /* Footer Styles */
