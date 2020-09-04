@@ -1,1 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Caveat:wght@700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 /* Add CSS styling here */
+
+ *{
+    box-sizing:border-box;
+    /* border:1px gray solid; */
+    max-width:100%;
+} 
+
+body{
+    background-image:url(../assets/queenalternative.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center top;
+}
+
+/* Header & Nav Styles */
+
+header{
+    background-color:rgba(0, 65, 65, 0.808);
+    height:100%;
+}
+
+h1{
+    font-family:'Caveat', cursive;
+    color:#fff;
+    font-size:4rem;
+    margin-left:1%;
+    width:80%;
+    padding:1%
+}
+nav.headerNav{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width:80%;
+    padding-bottom:2%;
+    margin:0 3%;
+}
+
+nav a{
+    color:teal;
+    background-color:orangered;
+    text-align:center;
+    width:20%;
+    padding:1%;
+    font-size:1.2rem;
+    text-decoration:none;
+    font-family:'Bitter', serif;
+    border: white 1px solid;
+    border-radius:10px;
+}
+
+/* Main Content Styles */
+
+section.aboutme.mainContentBox{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+
+div.mainContentBox{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+div.photo{
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    display:flex;
+    justify-content:center;
+    margin:3%;
+}
+
+img.itme{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    border: teal 20px solid;
+}
+
+h3{
+    width:80%;
+    font-family:'Caveat', cursive;
+    font-size:3rem;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    margin:2%;
+}
+
+div.orangeBox{
+    width:80%;
+    height:50%;
+    margin:10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background-color:orangered;
+    border-radius:10px;
+}
+
+div.orangeBox a{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    margin:1.5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius:10px;
+    color:teal;
+    text-decoration:none;
+    text-align:center;
+    font-size:1.3rem;
+    font-family:'Bitter', serif;
+    background-color:#fff;
+}
+
+div.orangeBox p{
+    width:90%;
+    margin:2%;
+    color:teal;
+    font-family:'Bitter', serif;
+    font-size:1rem;
+    line-height:2rem;
+}
+
+/* Gallery Styles */
+
+section.gallery{
+    height:100%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    align-content:center;
+    margin:1%;
+}
+
+div.img-title{
+    height:18%;
+    width:18%;
+    padding:1%;
+    margin:2%;
+    background-color:orangered;
+    border-radius:10px;
+}
+
+div.img-title img{
+    height:30vh;
+    width:30vw;
+    object-fit:cover;
+}
+
+h5{
+    font-family:'Caveat', cursive;
+    font-size:2rem;
+    color:#fff;
+    text-align:center;
+}
+
+section.gallery{
+    display:flex;
+    flex-flow:row, wrap;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+/* Footer Styles */
+
+footer h5{
+    margin-bottom:2%;
+}
+
+footer a{
+    text-decoration:none;
+    color:orangered;
+    font-family:'Bitter', serif;
+    background-color:#fff;
+    border-radius:10px;
+    margin:2%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:2%;
+    padding-right:2%;
+    text-align:center;
+    font-size:1.3rem;
+}
+
+footer{
+    background-color:rgba(0, 65, 65, 0.808);
+    text-align:center;
+    padding:2%;
+}
