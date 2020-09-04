@@ -27,11 +27,11 @@ time, mark, audio, video {
 
 /* Add CSS styling here */
 
-*{
+/* *{
     box-sizing:border-box;
     border:1px gray solid;
     max-width:100%;
-}
+} */
 
 body{
     background-image:url(../assets/queenalternative.jpg);
@@ -46,6 +46,7 @@ body{
 
 header{
     background-color:rgba(0, 65, 65, 0.808);
+    height:100%;
 }
 
 header h1{
@@ -53,26 +54,26 @@ header h1{
     color:#fff;
     font-size:3rem;
     margin-left:1%;
-    margin-top:1%;
     width:30%;
     padding:1%
 }
 nav.headerNav{
     display:flex;
     flex-direction:row;
-    margin:1%;
+    margin:auto 0;
     width:30%;
 }
 
 nav a{
-    color:#fff;
+    color:teal;
     background-color:orangered;
     text-align:center;
-    width:auto;
+    width:20%;
     padding:1%;
     font-size:1.2rem;
     text-decoration:none;
     font-family:'Bitter', serif;
+    border: white 1px solid;
 }
 
 /* Main Content Styles */
@@ -91,9 +92,8 @@ div.mainContentBox{
 div.mainContentBox img{
     width:15vw;
     border-radius:50%;
-    height:50%;
+    height:100%;
     display:flex;
-
     padding-top:2%;
     padding-bottom:2%;
 }
@@ -105,7 +105,8 @@ h3{
     color:#fff;
     display:flex;
     flex-direction:column;
-    margin:auto;
+    margin:2%;
+    text-align:center;
 }
 
 div.mainContentBox a{
@@ -118,7 +119,7 @@ div.mainContentBox a{
     flex-direction:column;
 }
 
-p{
+div.subtitleBox p{
     width:70%;
     margin:auto;
     color:teal;
@@ -137,6 +138,40 @@ div.subtitleBox a{
     display:flex;
     flex-direction:column;
     margin:auto;
+}
+
+/* Gallery Styles */
+
+.gallery p{
+    width:20%;
+    height:20%;
+    margin:auto;
+}
+
+h5{
+    font-family:'Caveat', cursive;
+    font-size:2rem;
+    color:#fff;
+    text-align:center;
+}
+
+div.gallery{
+    display:flex;
+    flex-flow:row, wrap;
+    justify-content:space-evenly;
+}
+
+/* Footer Styles */
+
+footer h5{
+    margin-bottom:2%;
+}
+
+footer a{
+    font-size:2rem;
+    text-decoration:none;
+    color:orangered;
+    font-family:'Bitter', serif;
 }
 
 footer{
