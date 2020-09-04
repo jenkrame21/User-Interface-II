@@ -1,5 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Caveat:wght@700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 /* Add CSS styling here */
 
 *{
+    box-sizing:border-box;
     border:1px gray solid;
+    max-width:100%;
+}
+
+body{
+    background-image:url(../assets/queenalternative.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center top;
+}
+
+/* Header & Nav Styles */
+
+header h1{
+    font-family:'Caveat', cursive;
+    color:orangered;
+    font-size:3rem;
+    margin-left:1%;
+    margin-top:1%;
+    width:30%;
+    padding:1%
+}
+nav.headerNav{
+    display:flex;
+    flex-direction:row;
+    margin:1%;
+    width:30%;
+}
+
+nav a{
+    color:lightgray;
+    background-color:orangered;
+    text-align:center;
+    width:auto;
+    padding:1%;
+    font-size:1.2rem;
+    text-decoration:none;
+    font-family:'Bitter', serif;
+}
+
+/* Main Content Styles */
+
+section.body{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.mainContentBox{
+    width:100%;
+    display:flex;
+}
+
+div.mainContentBox img{
+    width:15vw;
+    border-radius:50%;
+    height:50%;
+    display:flex;
+
+}
+
+h3{
+    width:30%;
+    font-family:'Bitter', serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto 0;
+}
+
+div.mainContentBox a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto 0;
+}
+
+.aboutme.mainContentBox{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+p{
+    width:40%;
+    margin:auto 0;
 }
