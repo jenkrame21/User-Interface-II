@@ -40,11 +40,17 @@ body{
     background-position:center top;
 }
 
+
+
 /* Header & Nav Styles */
+
+header{
+    background-color:rgba(0, 65, 65, 0.808);
+}
 
 header h1{
     font-family:'Caveat', cursive;
-    color:orangered;
+    color:#fff;
     font-size:3rem;
     margin-left:1%;
     margin-top:1%;
@@ -59,7 +65,7 @@ nav.headerNav{
 }
 
 nav a{
-    color:lightgray;
+    color:#fff;
     background-color:orangered;
     text-align:center;
     width:auto;
@@ -79,6 +85,7 @@ section.body{
 div.mainContentBox{
     width:100%;
     display:flex;
+    justify-content:space-around;
 }
 
 div.mainContentBox img{
@@ -87,30 +94,53 @@ div.mainContentBox img{
     height:50%;
     display:flex;
 
+    padding-top:2%;
+    padding-bottom:2%;
 }
 
 h3{
-    width:30%;
-    font-family:'Bitter', serif;
+    width:40%;
+    font-family:'Caveat', cursive;
+    font-size:2rem;
+    color:#fff;
     display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:auto 0;
+    flex-direction:column;
+    margin:auto;
 }
 
 div.mainContentBox a{
-    display:flex;
-    justify-content:center;
-    align-items:center;
     margin:auto 0;
 }
 
-.aboutme.mainContentBox{
+.aboutmywork.mainContentBox{
     display:flex;
     flex-wrap:wrap;
+    flex-direction:column;
 }
 
 p{
+    width:70%;
+    margin:auto;
+    color:teal;
+}
+
+div.subtitleBox{
     width:40%;
-    margin:auto 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background-color:orangered;
+    
+}
+div.subtitleBox a{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+}
+
+footer{
+    background-color:rgba(0, 65, 65, 0.808);
+    text-align:center;
+    padding:2%;
 }
