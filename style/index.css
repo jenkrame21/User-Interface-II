@@ -78,9 +78,10 @@ nav a{
 
 /* Main Content Styles */
 
-section.body{
+.aboutmywork.mainContentBox{
     display:flex;
     flex-wrap:wrap;
+    flex-direction:column;
 }
 
 div.mainContentBox{
@@ -106,41 +107,45 @@ h3{
     display:flex;
     flex-direction:column;
     margin:2%;
-    text-align:center;
-}
-
-div.mainContentBox a{
-    margin:auto 0;
-}
-
-.aboutmywork.mainContentBox{
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-}
-
-div.subtitleBox p{
-    width:70%;
-    margin:auto;
-    color:teal;
 }
 
 div.subtitleBox{
     width:40%;
+    height:30vh;
+    margin:3%;
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
     background-color:orangered;
-    
 }
+
 div.subtitleBox a{
-    width:40%;
+    width:30%;
     display:flex;
     flex-direction:column;
-    margin:auto;
+    margin:2%;
+    color:teal;
+    text-decoration:none;
+    text-align:center;
+    font-size:2rem;
+    font-family:'Bitter', serif;
+    background-color:#fff;
+}
+
+div.subtitleBox p{
+    width:90%;
+    margin:2%;
+    color:teal;
+    font-family:'Bitter', serif;
+    font-size:1rem;
+    line-height:2rem;
 }
 
 /* Gallery Styles */
+
+.gallery{
+    height:40vh;
+}
 
 .gallery p{
     width:20%;
