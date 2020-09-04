@@ -39,7 +39,7 @@ Once your repository is set up, practice what you learned today to create a port
 - [x]  Information about you in place of the given placeholder
 - [x]  A `My Projects` button that links to the projects page
 - [x]  A `Contact Me` button that links to the contact page
-- [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
+- [x]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
 
 ### Task 3: Stretch Goals
 
@@ -70,6 +70,6 @@ The following goals are designed to stretch your knowledge and may require addit
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your Team Lead as a reviewer on the pull request
 - [ ] Your Team Lead will count the project as complete by merging the branch back into master
