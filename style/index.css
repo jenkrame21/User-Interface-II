@@ -272,3 +272,76 @@ footer{
         height:20vh;
     }
 }
+/* Styles at max width 500px - Phone */
+/* Header Phone Styles*/
+@media (max-width:500px){
+    header{
+        padding-bottom:3%;
+    }
+    h1{
+        margin:2% 8%;
+    }
+    nav.headerNav{
+        width:100%;
+        padding:2% 0;
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    nav a{
+        width:30%;
+        padding:2% 0;
+    }
+/* About Me - mainContentBox- Phone Styles */
+    .mainContentBox{
+        display:flex;
+        flex-flow:column wrap;
+        align-items:center;
+    }
+    div.photo{
+        width:75%;
+    }
+    img.itme{
+        border-radius:0%;
+        border: teal 20px solid;
+    }
+    section.aboutmywork{
+        width:100%
+    }
+/* About Me - gallery- Phone Styles */
+    div.img-title{
+        width:42%;
+        display:flex;
+        flex-flow:column wrap;
+
+    }
+    div.img-title img{
+        width:100%;
+        height:15vh;
+        padding:4%;
+        display:initial;
+    }
+    div.proj7, div.proj8{
+        display:none;
+    }
+    div.proj1, div.proj2, div.proj3, div.proj4{
+        margin-bottom:4%;
+    }
+/* Footer Phone Styles */
+    footer{
+        padding:6% 0;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    footer h5{
+        padding-bottom:2%;
+    }
+    footer a{
+        width:40%;
+        display:flex;
+        justify-content:center;
+        padding:2% 0;
+    }
+}
