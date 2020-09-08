@@ -247,4 +247,28 @@ footer{
     section.aboutmywork{
         width:69%;
     }
+    div.orangeBox{
+        height:93%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    h3{
+        text-align:center;
+    }
+    div.orangeBox a{
+        width:97%;
+        width:50%;
+    }
+    div.orangeBox p{
+        height:100%;
+    }
+/* About Me - gallery- Tablet Styles */
+    .proj5, .proj6, .proj7, .proj8{
+        display:none;
+    }
+    div.img-title img{
+        height:20vh;
+    }
 }
